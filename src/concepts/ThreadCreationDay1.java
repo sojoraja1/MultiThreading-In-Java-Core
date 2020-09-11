@@ -44,6 +44,12 @@ class Thread1 extends Thread{
 
         for (int i=0;i<10;i++){
             System.out.println("Thread1:"+i);
+      try{
+          Thread.sleep(2000);
+
+      }catch (Exception e){
+          System.out.println("DSFDSF");
+      }
         }
     }
 
